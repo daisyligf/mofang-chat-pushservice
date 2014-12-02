@@ -1,0 +1,24 @@
+2014-09-24 17:07:34 | pushservice.info | INFO  |job acceptor receive message:{"rid":10,"from_uid":608598,"push_data_type":1}
+2014-09-24 17:07:34 | pushservice.info | INFO  |job acceptor receive message:{"rid":10,"from_uid":20674522,"push_data_type":1}
+2014-09-24 17:07:34 | pushservice.info | INFO  |job acceptor receive message:{"rid":10,"from_uid":608598,"push_data_type":1}
+2014-09-24 17:07:34 | pushservice.info | INFO  |job acceptor receive message:{"rid":10,"from_uid":608598,"push_data_type":1}
+2014-09-24 17:07:34 | pushservice.info | INFO  |job acceptor receive message:{"rid":10,"from_uid":20674522,"push_data_type":1}
+2014-09-24 17:07:34 | pushservice.info | INFO  |job handler prepare to push message:{"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | pushservice.info | INFO  |job handler prepare to push message:{"uid":608598,"rid":10,"from_uid":20674522,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | pushservice.info | INFO  |job handler prepare to push message:{"uid":608598,"rid":10,"from_uid":20674522,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | pushservice.info | INFO  |job handler prepare to push message:{"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | pushservice.info | INFO  |job handler prepare to push message:{"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | pushservice.info | INFO  |pusher component push message:{"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}
+2014-09-24 17:07:34 | pushservice.info | INFO  |pusher component push message:{"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}
+2014-09-24 17:07:34 | pushservice.info | INFO  |pusher component push message:{"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}
+2014-09-24 17:07:34 | pushservice.info | INFO  |pusher component push message:{"uid":608598,"rid":10,"from_uid":20674522,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}
+2014-09-24 17:07:35 | pushservice.info | INFO  |pusher component push message:{"uid":608598,"rid":10,"from_uid":20674522,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}
+2014-09-24 17:22:16 | pushservice.info | INFO  |job acceptor receive message:{"rid":10050726,"from_uid":131180,"push_data_type":1}
+2014-09-24 17:22:44 | pushservice.info | INFO  |job acceptor receive message:{"rid":10050726,"from_uid":131180,"push_data_type":1}
+2014-09-24 17:23:20 | pushservice.info | INFO  |job acceptor receive message:{"rid":10050726,"from_uid":131180,"push_data_type":1}
+2014-09-24 17:27:53 | pushservice.info | INFO  |job acceptor receive message:{"rid":10050726,"from_uid":178262,"push_data_type":1}
+2014-09-24 18:39:15 | pushservice.info | INFO  |job acceptor receive message:{"rid":10050729,"from_uid":131180,"push_data_type":1}
+2014-09-24 18:39:23 | pushservice.info | INFO  |job acceptor receive message:{"rid":10050729,"from_uid":178262,"push_data_type":1}
+2014-09-24 18:46:05 | pushservice.info | INFO  |job acceptor receive message:{"rid":10050729,"from_uid":131180,"push_data_type":1}
+2014-09-24 18:46:05 | pushservice.info | INFO  |job handler prepare to push message:{"uid":178262,"rid":10050729,"from_uid":131180,"push_data_type":1,"act":"push"}
+2014-09-24 18:46:05 | pushservice.info | INFO  |pusher component push message:{"uid":178262,"rid":10050729,"from_uid":131180,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}

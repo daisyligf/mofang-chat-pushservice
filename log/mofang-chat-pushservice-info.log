@@ -1,0 +1,14 @@
+2014-10-13 15:15:58 | pushservice.info | INFO  |job acceptor receive message:{"rid":1,"from_uid":1111,"push_data_type":1}
+2014-10-13 15:15:58 | pushservice.info | INFO  |job handler prepare to push message:{"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}
+2014-10-13 15:15:58 | pushservice.info | INFO  |pusher component push message:{"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}
+2014-10-13 15:15:58 | pushservice.info | INFO  |job handler prepare to push message:{"uid":20674522,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}
+2014-10-13 15:15:58 | pushservice.info | INFO  |pusher component push message:{"uid":20674522,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}
+2014-10-13 15:19:04 | pushservice.info | INFO  |job acceptor receive message:{"rid":1,"from_uid":1111,"push_data_type":1}
+2014-10-13 15:19:05 | pushservice.info | INFO  |job handler prepare to push message:{"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}
+2014-10-13 15:19:05 | pushservice.info | INFO  |pusher component push message:{"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}
+2014-10-13 15:20:27 | pushservice.info | INFO  |job acceptor receive message:{"rid":1,"from_uid":1111,"push_data_type":1}
+2014-10-13 15:20:27 | pushservice.info | INFO  |job handler prepare to push message:{"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}
+2014-10-13 15:20:27 | pushservice.info | INFO  |pusher component push message:{"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"} response:{"code":0,"act":"push_response"}
+2014-10-13 15:27:32 | pushservice.info | INFO  |job acceptor receive message:{"to_uid":608598,"notify_id":1,"push_data_type":7}
+2014-10-13 15:27:32 | pushservice.info | INFO  |job handler prepare to push message:{"to_uid":608598,"push_data_type":7,"notify_id":1,"act":"push"}
+2014-10-13 15:27:33 | pushservice.info | INFO  |pusher component push message:{"to_uid":608598,"push_data_type":7,"notify_id":1,"act":"push"} response:{"code":0,"act":"push_response"}
