@@ -292,8 +292,10 @@ public class JobHandler implements Runnable
 			///根据uid获取FE信息
 			String feHost = userRedis.getFrontend(userId);
 			if(!feMap.containsKey(feHost))
+			{
+				GlobalObject.INFO_LOG.info("femap dosn't contains fe host:" + feHost);
 				return;
-			
+			}
 			///为指定FE的指定uid发送消息通知
 			FrontendEntity entity = feMap.get(feHost);
 			FrontendPusher pushListener = new FrontendPusher(entity);
