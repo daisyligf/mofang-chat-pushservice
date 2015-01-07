@@ -107,6 +107,13 @@ public class JobHandler implements Runnable
 					return;
 				pushTaskNotify(toUserId);
 			}
+			else if(dataType == PushDataType.USER_MEDAL_NOTIFY)
+			{
+				long toUserId = pushJson.optLong("to_uid", 0L);
+				if(0 == toUserId)
+					return;
+				pushMedalNotify(toUserId);
+			}
 		}
 		catch(Exception e)
 		{
@@ -282,6 +289,19 @@ public class JobHandler implements Runnable
 		catch(Exception e)
 		{
 			GlobalObject.ERROR_LOG.error("at JobHandler.pushTaskNotify throw an error.", e);
+		}
+	}
+	
+	private void pushMedalNotify(long userId)
+	{
+		try
+		{
+			///推送消息
+			notifyPush(userId, pushJson.toString());
+		}
+		catch(Exception e)
+		{
+			GlobalObject.ERROR_LOG.error("at JobHandler.pushMedalNotify throw an error.", e);
 		}
 	}
 	
